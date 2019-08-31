@@ -1,0 +1,88 @@
+body{
+    text-align: center;
+    background: #E1B5B5;
+  font-family: sans-serif;
+  font-weight: 100;
+}
+h1{
+  color: #FFFFFF;
+  font-weight: 100;
+  font-size: 40px;
+  margin: 40px 0px 20px;
+  background: #541B3D;
+}
+ #clockdiv{
+    font-family: sans-serif;
+    color: #fff;
+    display: inline-block;
+    font-weight: 100;
+    text-align: center;
+    font-size: 30px;
+    padding-bottom: 40px;
+}
+#clockdiv > div{
+    padding: 10px;
+    border-radius: 3px;
+    background: #DB7F7F;
+    display: inline-block;
+}
+#clockdiv div > span{
+    padding: 15px;
+    border-radius: 3px;
+    background: #541B3D;
+    display: inline-block;
+}
+.separador{
+  margin-top: 40px;
+}
+smalltext{
+    padding-top: 5px;
+    font-size: 16px;
+}
+#carouselExampleInterval{
+  height: 20%;
+  width: 20%;
+}
+.cincuenta{
+  width: 50%;
+  height: 35%;
+}
+
+#mostrar, #mostrarFooter, #mostrarCarousel{
+  display: none;
+}
+
+.acomodar{
+  height: 300px;
+  width: auto;
+}
+.carouselResize{
+  height: 500px;
+  width: auto;
+}
+.gato{
+  height: 100px;
+  width: auto;
+}
+.fontGug{
+  font-family: 'Chilanka';
+  font-size: 50px;
+}
+.card-body{
+  background-color: #F9CEE7;
+}
+.card-text{
+  font-family: 'Bree Serif', serif;
+}
+.center{
+  justify-content: center;
+  display: inline-block;
+}
+.paddingTerc{
+  padding-top: 25px;
+}
+
+.notan{
+  font-family: 'Lexend Exa', sans-serif;
+  color: #FFFFFFFF;
+}
