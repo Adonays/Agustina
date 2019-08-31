@@ -12,7 +12,7 @@ document.getElementById("minuto").innerHTML = minutos;
 document.getElementById("segundo").innerHTML =segundos;
 if (t < 0) {
         clearInterval(x);
-        var ok = document.getElementById("musica");
+        var ok = document.getElementById("musica").play();
         document.getElementById("dia").innerHTML ='0';
         document.getElementById("hora").innerHTML ='0';
         document.getElementById("minuto").innerHTML ='0' ;
@@ -20,6 +20,5 @@ if (t < 0) {
         document.getElementById("mostrar").style.display="block";
         document.getElementById("mostrarFooter").style.display="block";
         document.getElementById("mostrarCarousel").style.display="block";
-        ok.play();
         }
 }, 1000);
